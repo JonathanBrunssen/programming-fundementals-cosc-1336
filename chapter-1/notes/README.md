@@ -31,8 +31,37 @@
 | 1995 | PS/2 |Intel Pentium|  4GB   |95/98/XP/Vista|16|500GB|2MB|Unknown|
 | 2018 |Brand Name|I5,I7|8GB|Windows 7,8,10|64|1TB|2MB|500$|
 
+RISC =  Reduced Instruction Set Computers.
+
+RISC move most frequently used instructions (cache)
+
+ttl = time to leave
+
 ---
 ## History of Software/Languages
+  - 1st generation
+    - Machine language or Binary.
+    - Uses 1's & 0's.
+    - Difficult to find errors.
+    - Optimized memory.
+  - 2nd generation
+    - Assembly language.
+    - Writing in mnemonics (short form of a word).
+    - Machine dependent not portable.
+  - 3rd generation
+    - High level language.
+    - Too many rules (syntax errors).
+    - Easy to understand & find errors.
+    - Examples
+      - Basic, Pascal, ADA (NASA), Java, C, C++, Python.
+  - 4th generation
+    - Very high level.
+    - Examples
+      - Excel, Access, BB, Nomad, AI, Lisp, Prolog, Java Script, Python, C, C++.
+    - AI is used in robots, or expert systems.
+  - 5th generation
+    - Big data, Machine Language.
+    - Almost human.
 
 ---
 ## Binary
