@@ -65,9 +65,70 @@ ttl = time to leave
 
 ---
 ## Binary
+Number System - 1's & 0's
+
+Compiler - A software that changes H.L.L. to Machine language
+
+0 means off 1 means on.
 
 ### Base 10
 
+To change a number to binary base 10 you can use the Subtraction method or the division method. The subtraction method is best so we will use this.
+
+|2^8|2^7|2^6|2^5|2^4|2^3|2^2|2^1|2^0|
+|---|---|---|---|---|---|---|---|---|
+|256|128| 64| 32| 16| 8 | 4 | 2 | 1 |
+
+So to get 197 into base 10 we use the subtraction method
+
+128 goes into 197 so we know that the slot in 2^7 is on and we are then left with 26. Now the next number that fits is 16 so 2^4 is now turned on and we are left with 10. So you subtract 8 so 2^3 is used. Then you are left with 2 so you subtract 2 which turns on 2^1.
+
+So 197 in binary base 10 is 10011010
+
+We can use the same method to find 154 and turn it into base 10 and get 10011010
+
+To add two or more binary numbers line them up so they match starting at the 2^0 mark then just add them like you are doing normal math where if there are three 1's you leave one of the 1's behind and carry a 1 over if there are only two 1's in the slot it turned off and you carry the 1 over.
+
+Multiplication is very similar to addition you just multiply like in normal math then add.
+
+Division is just like normal division method.
+
+you can also shift a binary number to the left or to the right. A shift to the right multiplies by 2. While if you shift it to the left you divide by 2.
+
 ### Hexadecimal
+Base 16(0-15)
+
+break up the base 10 number into strands of 4 and use the 8,4,2,1 on them and figure out the number that is given for example if we break apart.
+
+11001110011100111100111 into Hexadecimal.
+
+110|0111|0011|1001|1110|0111 you then get.
+
+ 6 | 7  | 3  | 9  | 14 | 7 as your numbers now you just apply the numbers to the graph below.
+
+|Dec|Hex|
+|---|---|
+| 0 | 0 |
+| 1 | 1 |
+|2|2|
+|3|3|
+|...|...|
+|9|9|
+|10|A|
+|11|B|
+|12|C|
+|13|D|
+|14|E|
+|15|F|
+
+So 11001110011100111100111 changed to hexadecimal is really 6739E7.
+
+You can also find out the Mac/Physical Address of your computer now.
+
+So the method to conversion is 2 steps
+  - Step 1: take the number to binary.
+  - Step 2: take it to destination base.
+
+All math functions in base 10 and hexadecimal are the exact. Just that if you borrow a number during subtraction add 16 to the number you are giving it to.
 
 ---
