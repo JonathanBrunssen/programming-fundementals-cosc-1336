@@ -39,12 +39,12 @@ def main():
   nbop = gbop * .2 # net box office profit
   apmc = gbop - nbop #amount paid to movie company
   #print outcome
-  print('Movie Name:                "'+mn+'"')
-  print("Adult tickets sold           ",int(ats))
-  print("Adult tickets sold           ",int(cts))
-  print("Adult tickets sold            $"+str(gbop))
-  print("Adult tickets sold            $"+str(nbop))
-  print("Adult tickets sold            $"+str(apmc))
+  print('Movie Name:                      "'+mn+'"')
+  print("Adult tickets sold:                ",int(ats))
+  print("Child tickets sold:                ",int(cts))
+  print("Gross Box Office Profit:            $"+str(gbop))
+  print("Net Box Office Profit:              $"+str(nbop))
+  print("Amount Paid to Movie Co:            $"+str(apmc))
 
 main()
 ```
