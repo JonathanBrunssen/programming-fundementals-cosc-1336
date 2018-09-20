@@ -25,7 +25,7 @@ main().loop
 #Name
 #Fundamentals of Programming COSC 1336 python
 #ACC Fall 2018
-#Lab#.py
+#Lab1.py
 #Prof Onabajo
 atc = 6 #adult ticket cost
 ctc = 3 #child ticket cost
