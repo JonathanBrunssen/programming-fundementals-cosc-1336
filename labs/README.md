@@ -46,5 +46,5 @@ def main():
   print("Adult tickets sold            $"+str(nbop))
   print("Adult tickets sold            $"+str(apmc))
 
-main().loop
+main()
 ```
